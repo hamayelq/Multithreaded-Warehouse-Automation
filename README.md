@@ -5,14 +5,14 @@
 Almost all information is stored in structs. In situations where a que is needed (a pile of pending
 packages or robot queues), I implemented a linked list of package/robot structs. In other situations where a strict queue
 was not necessary, I simply implemented global arrays of structs. In one situation, I have an array of linked lists - an array representing each team's robot queue. Code comments are extensive and go into depth about how I implemented 
-my novel mutex algorithms and data structures for reference.'
+my novel mutex algorithms and data structures for reference. 
 
 ## Output Explanation
 
 I developed abbreviations/codes that signify what each robot is doing as it works through the pile of packages. 
 Because so much information is printed (which I believe is relevant and something a real life warehouse automation company
 may like to see), the output for each run is around two thousand lines long. This is also because there are 80 packages
-to process, with each package having between 1 and 4 stations to be processed through.
+to process, with each package having between 1 and 4 stations to be processed through. Must add timestamps to each output.
 
 The codes/abbreviations and their meanings are as follows:
 
